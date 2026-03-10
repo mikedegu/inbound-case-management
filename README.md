@@ -211,6 +211,8 @@ Implementation includes:
 *   Evidence attachments
 *   Case timeline updates
 
+![D365 CS Integration](images/d365-customer-service-integration.png)
+
 ***
 
 ### **Model‑Driven App: Inbound Case Management**
@@ -221,6 +223,8 @@ The solution includes a dedicated model‑driven app providing:
 *   Case linkage monitoring
 *   System logging visibility
 
+![ICM Model-driven App](images/icm-model-driven-app.png)
+
 ***
 
 ## **Email Templates**
@@ -230,6 +234,8 @@ Templates used in the notification flows include:
 *   Case creation alerts
 *   Message summary
 *   Embedded links to Dynamics 365 and Dataverse records
+
+![Email Template](images/icm-email-template.png)
 
 ***
 
