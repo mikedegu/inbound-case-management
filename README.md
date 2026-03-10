@@ -108,6 +108,9 @@ Responsible for:
 *   Creating Inbound Message record
 *   Duplicate detection
 *   Error logging
+  
+  ![InboundWebhook_Receive](images/inbound-webhook-receive.png)
+    
 
 ***
 
@@ -119,6 +122,8 @@ Automatically:
 *   Associates the Case with a Contact (when matched)
 *   Prepares additional metadata for downstream processes
 
+  ![InboundWebhook_CaseCreate](images/inbound-webhook-case-create.png)
+
 ***
 
 ### **3. InboundWebhook\_AttachEvidence**
@@ -127,6 +132,8 @@ Ensures compliance by:
 
 *   Attaching original inbound message content
 *   Creating Dataverse Note/Annotation linked to the newly created Case
+
+  ![InboundWebhook_AttachEvidencce](images/inbound-webhook-attach-evidence.png)
 
 ***
 
@@ -143,6 +150,8 @@ Notification contains:
 *   Case details
 *   Links to evidence and Case record
 
+  ![InboundWebhook_Notify](images/inbound-webhook-notify.png)
+
 ***
 
 ### **5. InboundWebhook\_Log**
@@ -152,6 +161,8 @@ Dedicated to operational logging:
 *   Error details
 *   Processing diagnostics
 *   Exceptions for retry or follow‑up
+
+  ![InboundWebhook_Log](images/inbound-webhook-log.png)
 
 ***
 
@@ -166,6 +177,8 @@ Displays:
 *   Source information
 *   Quick‑link to Dynamics 365 Case
 
+  ![Adaptive Card](images/teams-adaptive-card.png)
+
 ### **Outlook Email Notification**
 
 Includes:
@@ -173,6 +186,8 @@ Includes:
 *   Summary of inbound message
 *   Case reference
 *   Link to Dynamics 365
+
+  ![Outlook Email](images/outlook-email-notification.png)
 
 ***
 
@@ -182,6 +197,8 @@ Includes:
 
 The webhook can be tested using OAuth-secured API calls in Postman.  
 Supports sending structured JSON requests to simulate real inbound traffic.
+
+![Postman Testing](images/postman-testing.png)
 
 ***
 
